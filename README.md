@@ -1,4 +1,4 @@
-# customer_sales_analytics_system
+# Retail Data Analytics Database System
 
 It is a console-based retail management system that simulates a small online store.
 
