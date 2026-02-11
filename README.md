@@ -5,7 +5,7 @@ It is a console-based retail management system that simulates a small online sto
 In this system, users can register or log in, then customers can search products by keywords, view product details, add items to a cart, update quantities, and checkout to create an order with a shipping address. Customers can also view past orders and see order details.
 
 
-There is also a sales role that can update product price and stock, generate a weekly sales report, and show top products by orders and by views.
+There is also a sales role that can update product price and stock, generate a weekly sales report, and show top products by orders and by views. When the user wants the top product report, it will automatically generate the excel file.
 
 The system records user sessions, search history, and viewed products, so it can support reports later. For checkout, I also used a transaction to make sure stock updates and order creation stay consistent — if stock is not enough, it rolls back safely.
 ## Setup
